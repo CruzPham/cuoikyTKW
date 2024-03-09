@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="dangnhap.css">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css">
+    <link rel="shortcut icon" href="Img/z5204671593649_ba0afc0162dd43c77d45fedd528702b0.jpg">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container register-container">
+            <form action="#">
+                <h1>Đăng ký</h1>
+                <input type="text" placeholder="Họ và tên">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Mật khẩu">
+                <button>Đăng ký</button>
+                <span>hoặc đăng nhập bằng</span>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
+                    <a href="#" class="social"><i class="lni lni-google"></i></a>
+                    <a href="#" class="social"><i class="lni lni-linkedin-original"></i></a>
+                </div>
+            </form>
+        </div>
+        <div class="form-container login-container">
+            <form action="#">
+                <h1>Đăng nhập</h1>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Mật khẩu">
+                <div class="content">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label>Nhớ mật khẩu</label>
+                    </div>
+                    <div class="pass-link">
+                        <a href="#">Quên mật khẩu?</a>
+                    </div>
+                </div>
+                <button onclick="dangnhap()">Đăng nhập</button>
+                <span>hoặc đăng nhập bằng</span>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
+                    <a href="#" class="social"><i class="lni lni-google"></i></a>
+                    <a href="#" class="social"><i class="lni lni-linkedin-original"></i></a>
+                </div>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1 class="title">Xin chào</h1>
+                    <p>Nếu bạn đã có tài khoản, đăng nhập ở đây</p>
+                    <button class="ghost" id="login">Đăng nhập
+                    <i class="lni lni-arrow-left login"></i>
+                    </button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1 class="title">Bắt đầu<br>mua sắm</h1>
+                    <p>Nếu bạn chưa có tài khoản, hãy đăng kí ngay</p>
+                    <button class="ghost" id="register">Đăng ký
+                    <i class="lni lni-arrow-right register"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
